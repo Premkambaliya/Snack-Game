@@ -1,9 +1,51 @@
-/* Write CSS Here */
 body {
-    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
 }
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
 .Game {
     font-size: 40px;
     font-weight: bold;
-    color: green;
+    color: #2e8b57; 
 }
+
+canvas {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border: 2px solid #333;
+    background: linear-gradient(45deg, #9fff00, #ff00ff);
+    margin-bottom: 20px;
+}
+
+#board {
+    border-radius: 8px;
+    border: 4px solid #555;
+    background-color: #333;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
